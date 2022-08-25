@@ -25,3 +25,13 @@ print('Your mission is to find the treasure.')
 choice1 = input("You're at a crossroad, where do you want to go? Type 'left' or 'right'.".lower())
 
 ''' Remember to complete this code below....'''
+if choice1 == 'left':
+      print("Game Over! You Lose.")
+      print("")
+else:
+      choice2 = input("You just came across 2 treasue chests. Type 'red' for chest 1 or 'blue' for chest 2. \n")
+      if choice2 == 'blue':
+            print('Game Over! You Lost.')
+      else:
+            print("Congratulations! You discoverd the treasure chest! Way to Go!. Thanks for playing.")
+            
